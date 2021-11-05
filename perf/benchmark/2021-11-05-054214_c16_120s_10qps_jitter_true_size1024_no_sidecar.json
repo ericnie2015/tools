@@ -1,0 +1,296 @@
+{
+  "RunType": "HTTP",
+  "Labels": "c16-120s-10qps-jitter-true-size1024-no-sidecar",
+  "StartTime": "2021-11-05T05:42:14.294276126Z",
+  "RequestedQPS": "10",
+  "RequestedDuration": "2m0s",
+  "ActualQPS": 9.985301590043857,
+  "ActualDuration": 120176640553,
+  "NumThreads": 16,
+  "Version": "1.18.0",
+  "DurationHistogram": {
+    "Count": 1200,
+    "Min": 0.00872524,
+    "Max": 0.858805572,
+    "Sum": 55.972827933999994,
+    "Avg": 0.04664402327833333,
+    "StdDev": 0.08720562142101308,
+    "Data": [
+      {
+        "Start": 0.00872524,
+        "End": 0.009000000000000001,
+        "Percent": 0.4166666666666667,
+        "Count": 5
+      },
+      {
+        "Start": 0.009000000000000001,
+        "End": 0.01,
+        "Percent": 2,
+        "Count": 19
+      },
+      {
+        "Start": 0.01,
+        "End": 0.011,
+        "Percent": 5.166666666666667,
+        "Count": 38
+      },
+      {
+        "Start": 0.011,
+        "End": 0.012,
+        "Percent": 10.333333333333334,
+        "Count": 62
+      },
+      {
+        "Start": 0.012,
+        "End": 0.014,
+        "Percent": 23.25,
+        "Count": 155
+      },
+      {
+        "Start": 0.014,
+        "End": 0.016,
+        "Percent": 33.75,
+        "Count": 126
+      },
+      {
+        "Start": 0.016,
+        "End": 0.018000000000000002,
+        "Percent": 42.583333333333336,
+        "Count": 106
+      },
+      {
+        "Start": 0.018000000000000002,
+        "End": 0.02,
+        "Percent": 50.083333333333336,
+        "Count": 90
+      },
+      {
+        "Start": 0.02,
+        "End": 0.025,
+        "Percent": 61.75,
+        "Count": 140
+      },
+      {
+        "Start": 0.025,
+        "End": 0.03,
+        "Percent": 69.08333333333333,
+        "Count": 88
+      },
+      {
+        "Start": 0.03,
+        "End": 0.035,
+        "Percent": 74.33333333333333,
+        "Count": 63
+      },
+      {
+        "Start": 0.035,
+        "End": 0.04,
+        "Percent": 77.66666666666667,
+        "Count": 40
+      },
+      {
+        "Start": 0.04,
+        "End": 0.045,
+        "Percent": 80.83333333333333,
+        "Count": 38
+      },
+      {
+        "Start": 0.045,
+        "End": 0.05,
+        "Percent": 83.25,
+        "Count": 29
+      },
+      {
+        "Start": 0.05,
+        "End": 0.06,
+        "Percent": 85.16666666666667,
+        "Count": 23
+      },
+      {
+        "Start": 0.06,
+        "End": 0.07,
+        "Percent": 87.5,
+        "Count": 28
+      },
+      {
+        "Start": 0.07,
+        "End": 0.08,
+        "Percent": 88.75,
+        "Count": 15
+      },
+      {
+        "Start": 0.08,
+        "End": 0.09,
+        "Percent": 89.58333333333333,
+        "Count": 10
+      },
+      {
+        "Start": 0.09,
+        "End": 0.1,
+        "Percent": 90.16666666666667,
+        "Count": 7
+      },
+      {
+        "Start": 0.1,
+        "End": 0.12,
+        "Percent": 91.5,
+        "Count": 16
+      },
+      {
+        "Start": 0.12,
+        "End": 0.14,
+        "Percent": 93.41666666666667,
+        "Count": 23
+      },
+      {
+        "Start": 0.14,
+        "End": 0.16,
+        "Percent": 94.33333333333333,
+        "Count": 11
+      },
+      {
+        "Start": 0.16,
+        "End": 0.18,
+        "Percent": 95.25,
+        "Count": 11
+      },
+      {
+        "Start": 0.18,
+        "End": 0.2,
+        "Percent": 95.75,
+        "Count": 6
+      },
+      {
+        "Start": 0.2,
+        "End": 0.25,
+        "Percent": 97,
+        "Count": 15
+      },
+      {
+        "Start": 0.25,
+        "End": 0.3,
+        "Percent": 97.66666666666667,
+        "Count": 8
+      },
+      {
+        "Start": 0.3,
+        "End": 0.35000000000000003,
+        "Percent": 98,
+        "Count": 4
+      },
+      {
+        "Start": 0.35000000000000003,
+        "End": 0.4,
+        "Percent": 98.16666666666667,
+        "Count": 2
+      },
+      {
+        "Start": 0.4,
+        "End": 0.45,
+        "Percent": 98.75,
+        "Count": 7
+      },
+      {
+        "Start": 0.45,
+        "End": 0.5,
+        "Percent": 98.91666666666667,
+        "Count": 2
+      },
+      {
+        "Start": 0.5,
+        "End": 0.6,
+        "Percent": 99.16666666666667,
+        "Count": 3
+      },
+      {
+        "Start": 0.6,
+        "End": 0.7000000000000001,
+        "Percent": 99.75,
+        "Count": 7
+      },
+      {
+        "Start": 0.7000000000000001,
+        "End": 0.8,
+        "Percent": 99.91666666666667,
+        "Count": 2
+      },
+      {
+        "Start": 0.8,
+        "End": 0.858805572,
+        "Percent": 100,
+        "Count": 1
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.01997777777777778
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.036000000000000004
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.09714285714285711
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.5333333333333314
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.7900000000000009
+      }
+    ]
+  },
+  "Exactly": 0,
+  "Jitter": true,
+  "RunID": 0,
+  "RetCodes": {
+    "200": 1200
+  },
+  "Sizes": {
+    "Count": 1200,
+    "Min": 4484,
+    "Max": 5484,
+    "Sum": 6203092,
+    "Avg": 5169.243333333333,
+    "StdDev": 462.8901246036208,
+    "Data": [
+      {
+        "Start": 4484,
+        "End": 4500,
+        "Percent": 31.333333333333332,
+        "Count": 376
+      },
+      {
+        "Start": 5000,
+        "End": 5484,
+        "Percent": 100,
+        "Count": 824
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 1200,
+    "Min": 301,
+    "Max": 301,
+    "Sum": 361200,
+    "Avg": 301,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 301,
+        "End": 301,
+        "Percent": 100,
+        "Count": 1200
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://productpage-bookinfo.apps.cluster-8801.sandbox956.opentlc.com/productpage",
+  "SocketCount": 16,
+  "AbortOn": 0
+}

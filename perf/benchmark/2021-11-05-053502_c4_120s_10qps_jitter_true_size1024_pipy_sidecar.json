@@ -1,0 +1,224 @@
+{
+  "RunType": "HTTP",
+  "Labels": "c4-120s-10qps-jitter-true-size1024-pipy-sidecar",
+  "StartTime": "2021-11-05T05:35:02.879217012Z",
+  "RequestedQPS": "10",
+  "RequestedDuration": "2m0s",
+  "ActualQPS": 9.993739794805164,
+  "ActualDuration": 120075169520,
+  "NumThreads": 4,
+  "Version": "1.18.0",
+  "DurationHistogram": {
+    "Count": 1200,
+    "Min": 0.012656862,
+    "Max": 0.278055006,
+    "Sum": 56.057075177,
+    "Avg": 0.04671422931416667,
+    "StdDev": 0.03579418049350228,
+    "Data": [
+      {
+        "Start": 0.012656862,
+        "End": 0.014,
+        "Percent": 0.5833333333333334,
+        "Count": 7
+      },
+      {
+        "Start": 0.014,
+        "End": 0.016,
+        "Percent": 4.583333333333333,
+        "Count": 48
+      },
+      {
+        "Start": 0.016,
+        "End": 0.018000000000000002,
+        "Percent": 10.083333333333334,
+        "Count": 66
+      },
+      {
+        "Start": 0.018000000000000002,
+        "End": 0.02,
+        "Percent": 19.333333333333332,
+        "Count": 111
+      },
+      {
+        "Start": 0.02,
+        "End": 0.025,
+        "Percent": 36.333333333333336,
+        "Count": 204
+      },
+      {
+        "Start": 0.025,
+        "End": 0.03,
+        "Percent": 44.833333333333336,
+        "Count": 102
+      },
+      {
+        "Start": 0.03,
+        "End": 0.035,
+        "Percent": 50.25,
+        "Count": 65
+      },
+      {
+        "Start": 0.035,
+        "End": 0.04,
+        "Percent": 53.25,
+        "Count": 36
+      },
+      {
+        "Start": 0.04,
+        "End": 0.045,
+        "Percent": 54.583333333333336,
+        "Count": 16
+      },
+      {
+        "Start": 0.045,
+        "End": 0.05,
+        "Percent": 56.416666666666664,
+        "Count": 22
+      },
+      {
+        "Start": 0.05,
+        "End": 0.06,
+        "Percent": 73.91666666666667,
+        "Count": 210
+      },
+      {
+        "Start": 0.06,
+        "End": 0.07,
+        "Percent": 87.08333333333333,
+        "Count": 158
+      },
+      {
+        "Start": 0.07,
+        "End": 0.08,
+        "Percent": 92,
+        "Count": 59
+      },
+      {
+        "Start": 0.08,
+        "End": 0.09,
+        "Percent": 94.08333333333333,
+        "Count": 25
+      },
+      {
+        "Start": 0.09,
+        "End": 0.1,
+        "Percent": 94.66666666666667,
+        "Count": 7
+      },
+      {
+        "Start": 0.1,
+        "End": 0.12,
+        "Percent": 96,
+        "Count": 16
+      },
+      {
+        "Start": 0.12,
+        "End": 0.14,
+        "Percent": 97,
+        "Count": 12
+      },
+      {
+        "Start": 0.14,
+        "End": 0.16,
+        "Percent": 98.16666666666667,
+        "Count": 14
+      },
+      {
+        "Start": 0.16,
+        "End": 0.18,
+        "Percent": 98.25,
+        "Count": 1
+      },
+      {
+        "Start": 0.18,
+        "End": 0.2,
+        "Percent": 98.66666666666667,
+        "Count": 5
+      },
+      {
+        "Start": 0.2,
+        "End": 0.25,
+        "Percent": 99.58333333333333,
+        "Count": 11
+      },
+      {
+        "Start": 0.25,
+        "End": 0.278055006,
+        "Percent": 100,
+        "Count": 5
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.034769230769230774
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.060822784810126575
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.07593220338983052
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.21818181818181812
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.27132180456000043
+      }
+    ]
+  },
+  "Exactly": 0,
+  "Jitter": true,
+  "RunID": 0,
+  "RetCodes": {
+    "200": 1200
+  },
+  "Sizes": {
+    "Count": 1200,
+    "Min": 4478,
+    "Max": 5479,
+    "Sum": 6171057,
+    "Avg": 5142.5475,
+    "StdDev": 470.7566898909488,
+    "Data": [
+      {
+        "Start": 4478,
+        "End": 4500,
+        "Percent": 33.416666666666664,
+        "Count": 401
+      },
+      {
+        "Start": 5000,
+        "End": 5479,
+        "Percent": 100,
+        "Count": 799
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 1200,
+    "Min": 295,
+    "Max": 296,
+    "Sum": 354057,
+    "Avg": 295.0475,
+    "StdDev": 0.21270578272223098,
+    "Data": [
+      {
+        "Start": 295,
+        "End": 296,
+        "Percent": 100,
+        "Count": 1200
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://istio-ingressgateway-istio-system.apps.cluster-8801.sandbox956.opentlc.com/productpage",
+  "SocketCount": 4,
+  "AbortOn": 0
+}

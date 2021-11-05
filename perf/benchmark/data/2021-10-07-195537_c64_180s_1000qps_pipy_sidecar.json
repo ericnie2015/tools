@@ -1,0 +1,193 @@
+{
+  "RunType": "HTTP",
+  "Labels": "c64-180s-1000qps-pipy-sidecar",
+  "StartTime": "2021-10-07T19:55:37.901762025+08:00",
+  "RequestedQPS": "1000",
+  "RequestedDuration": "3m0s",
+  "ActualQPS": 999.9256911441047,
+  "ActualDuration": 179981374210,
+  "NumThreads": 64,
+  "Version": "1.17.0",
+  "DurationHistogram": {
+    "Count": 179968,
+    "Min": 0.000342062,
+    "Max": 0.022196928,
+    "Sum": 168.052155144,
+    "Avg": 0.0009337890910828592,
+    "StdDev": 0.000754787866014525,
+    "Data": [
+      {
+        "Start": 0.000342062,
+        "End": 0.001,
+        "Percent": 80.56876778093883,
+        "Count": 144998
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 97.31118865576103,
+        "Count": 30131
+      },
+      {
+        "Start": 0.002,
+        "End": 0.003,
+        "Percent": 98.66254000711237,
+        "Count": 2432
+      },
+      {
+        "Start": 0.003,
+        "End": 0.004,
+        "Percent": 99.14540362731152,
+        "Count": 869
+      },
+      {
+        "Start": 0.004,
+        "End": 0.005,
+        "Percent": 99.39100284495021,
+        "Count": 442
+      },
+      {
+        "Start": 0.005,
+        "End": 0.006,
+        "Percent": 99.53325035561878,
+        "Count": 256
+      },
+      {
+        "Start": 0.006,
+        "End": 0.007,
+        "Percent": 99.6443812233286,
+        "Count": 200
+      },
+      {
+        "Start": 0.007,
+        "End": 0.008,
+        "Percent": 99.71939455903272,
+        "Count": 135
+      },
+      {
+        "Start": 0.008,
+        "End": 0.009000000000000001,
+        "Percent": 99.78440611664296,
+        "Count": 117
+      },
+      {
+        "Start": 0.009000000000000001,
+        "End": 0.01,
+        "Percent": 99.83886024182077,
+        "Count": 98
+      },
+      {
+        "Start": 0.01,
+        "End": 0.011,
+        "Percent": 99.88275693456615,
+        "Count": 79
+      },
+      {
+        "Start": 0.011,
+        "End": 0.012,
+        "Percent": 99.9127622688478,
+        "Count": 54
+      },
+      {
+        "Start": 0.012,
+        "End": 0.014,
+        "Percent": 99.95499199857753,
+        "Count": 76
+      },
+      {
+        "Start": 0.014,
+        "End": 0.016,
+        "Percent": 99.97666251778094,
+        "Count": 39
+      },
+      {
+        "Start": 0.016,
+        "End": 0.018000000000000002,
+        "Percent": 99.98888691322902,
+        "Count": 22
+      },
+      {
+        "Start": 0.018000000000000002,
+        "End": 0.02,
+        "Percent": 99.99666607396871,
+        "Count": 14
+      },
+      {
+        "Start": 0.02,
+        "End": 0.022196928,
+        "Percent": 100,
+        "Count": 6
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0007503686205093899
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0009545241995627496
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.0015633135309150044
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0036988722669735346
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.011574666666666754
+      }
+    ]
+  },
+  "Exactly": 0,
+  "Jitter": true,
+  "RetCodes": {
+    "200": 179968
+  },
+  "Sizes": {
+    "Count": 179968,
+    "Min": 456,
+    "Max": 475,
+    "Sum": 82099456,
+    "Avg": 456.18918918918916,
+    "StdDev": 1.886478742339506,
+    "Data": [
+      {
+        "Start": 456,
+        "End": 475,
+        "Percent": 100,
+        "Count": 179968
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 179968,
+    "Min": 161,
+    "Max": 180,
+    "Sum": 29008896,
+    "Avg": 161.1891891891892,
+    "StdDev": 1.8864787423366969,
+    "Data": [
+      {
+        "Start": 161,
+        "End": 175,
+        "Percent": 99.00426742532005,
+        "Count": 178176
+      },
+      {
+        "Start": 175,
+        "End": 180,
+        "Percent": 100,
+        "Count": 1792
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://172.22.37.119:30990/reviews/1",
+  "SocketCount": 1856,
+  "AbortOn": 0
+}

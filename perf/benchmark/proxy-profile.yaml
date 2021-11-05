@@ -1,0 +1,22 @@
+apiVersion: flomesh.io/v1alpha1
+kind: ProxyProfile
+metadata:
+  name: pf-benchmark
+spec:
+  selector:
+    matchLabels:
+      sys: benchmark
+  namespace: default
+  sidecars:
+    - name: sidecar
+      image: flomesh/pipy-pjs:0.4.0-165
+      env:
+        - name: PIPY_SIDECAR_HTTP_PORT
+          value: "9090"
+        - name: PIPY_SERVICE_HTTP_ADDR
+          value: "127.0.0.1:8080"
+  config:
+    sidecar.js: |
+      pipy()
+        .listen(os.env.PIPY_SIDECAR_HTTP_PORT)
+        .connect(() => os.env.PIPY_SERVICE_HTTP_ADDR || "127.0.0.1:8080")
